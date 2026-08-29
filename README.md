@@ -82,12 +82,12 @@ Create a `.env.local` file in the project root:
 ```bash
 # Auth.js / NextAuth v5 Configuration
 # Generate a secure secret with 'openssl rand -base64 32'
-AUTH_SECRET="your_nextauth_secret_here"
+AUTH_SECRET="TzI5bWp2dWhkZXNhZmRzYWZkYXNmd2Vxd2VxcmVxMTI="
 
-# Google Cloud OAuth Client Credentials
-# Create these at Google Cloud Console (https://console.cloud.google.com)
-AUTH_GOOGLE_ID="your_google_client_id_here"
-AUTH_GOOGLE_SECRET="your_google_client_secret_here"
+# Google OAuth Client Credentials
+# Created via Google Cloud Console for technical assessment review
+AUTH_GOOGLE_ID="982988547906-b5dcll09vsir0bo8fvuudhv0p7agpnfb.apps.googleusercontent.com"
+AUTH_GOOGLE_SECRET="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"
 
 # Base Application URL
 NEXTAUTH_URL="http://localhost:3000"
